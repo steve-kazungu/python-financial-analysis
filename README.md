@@ -20,3 +20,9 @@ Revenue, Net Income, Gross Profit, Operating Income, **Profit Margin** ,**ROE**,
 '''bash
 pip install yfinance pandas
 py second_stock.py
+### '3rd_stock.py (DCF Valuation Model)
+-pulls Free Cash Flow, Cash , Debt and Shares Outstanding
+-Projects 5 years of cash flow growth 
+-Calculates Terminal Value and discounts to Present Value 
+-Outputs Enterprise Value , Equity Value and Fair price per share
+-Fully configurable growth rate , WACC and terminal growth assumptions
